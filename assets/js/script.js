@@ -1,7 +1,7 @@
 // Set global variables
 var API_KEY = '8ca142d1a7345f046198707f1022c899';
-var currentCity = '';
-var lastCity = '';
+var currentCity;
+var lastCity;
 
 // Error handleing for fetch
 var handleErrors = (response) => {
@@ -48,16 +48,14 @@ var getCurrentConditions = (event) => {
                 <li>Temperature: ${response.main.temp}&#8457;</li>
                 <li>Humidity: ${response.main.humidity}%</li>
                 <li>Wind Speed: ${response.wind.speed} mph</li>
-                <li id='uvIndex'>UV Index:</li>
+                <li id='uvIndex'>UV Index: </li>
             </ul>`;
             // Append results to the DOM
             $('#current-weather').html(currentWeatherHTML);
             // Get the lat long for the UV search
-            let latitude = response.coord.lat;
-            let longitude = response.coord.lon;
-            let uvQueryURL = 'api.openweathermap.org/data/2.5/uvi?lat=' + latitude + '&lon=' + longitude + '&appid=' + API_KEY;
-            // Cross-origin error handling
-            uvQueryURL = 'https://cors-anywhere.herokuapp.com/' + uvQueryURL;
+            let lat = response.coord.lat;
+            let lon = response.coord.lon;
+            let uvQueryURL = `https://api.openweathermap.org/data/2.5/uvi?appid=${API_KEY}&lat=${lat}&lon=${lon}`;
             // Fetch UV info => set the color display for the UV indx
             fetch(uvQueryURL)
                 .then(handleErrors)
@@ -68,11 +66,11 @@ var getCurrentConditions = (event) => {
                     let uvIndex = response.value;
                     $('#uvIndex').html(`UV Index: <span id='uvVal'> ${uvIndex}</span>`);
                     if (uvIndex >= 0 && uvIndex < 3) {
-                        $('#uvVal').attr('class', 'uv-favorable');
+                        $('#uvVal').attr('class', 'low');
                     } else if (uvIndex >= 3 && uvIndex < 8) {
-                        $('#uvVal').attr('class', 'uv-moderate');
+                        $('#uvVal').attr('class', 'medium');
                     } else if (uvIndex >= 8) {
-                        $('#uvVal').attr('class', 'uv-severe');
+                        $('#uvVal').attr('class', 'high');
                     }
                 });
         })
@@ -148,7 +146,7 @@ var renderCities = () => {
         if (lastCity) {
             $('#search-city').attr('value', lastCity);
         } else {
-            $('#search-city').attr('value', 'Austin');
+            $('#search-city').attr('value', 'Boca Raton');
         }
     } else {
         // Build key of last city written to localStorage
