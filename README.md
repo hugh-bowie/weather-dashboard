@@ -1,12 +1,12 @@
-<h1 align="center">Weather Dashboard</h1>
-
-Open Weather API - to see the weather outlook for multiple cities
+<h1 align="center">Weather Dashboard
+<img src="https://img.shields.io/github/repo-size/hugh-bowie/waether-dashboard" />
+<h6 align="center">Open Weather API - to see the weather outlook for multiple cities</h6>
 
 ## Layout
 
 <img src="https://github.com/hugh-bowie/weather-dashboard/blob/main/weather-dashboard.PNG">
 
-## Criteria
+## Acceptance Criteria
 
 <pre>
   <code>
