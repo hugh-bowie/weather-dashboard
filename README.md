@@ -1,8 +1,9 @@
-<h1 align="center">Weather Dashboard</h1>
+<p align="center">
+<h1>Weather Dashboard</h1>
 <img src="https://img.shields.io/badge/Javascript-yellow" />
 <img src="https://img.shields.io/github/repo-size/hugh-bowie/waether-dashboard" />
 <h6 align="center">Open Weather API - to see the weather outlook for multiple cities</h6>
-
+</p>
 ## Layout
 
 <img src="https://github.com/hugh-bowie/weather-dashboard/blob/main/weather-dashboard.PNG">
