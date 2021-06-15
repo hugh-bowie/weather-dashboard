@@ -4,6 +4,14 @@
 <img src="https://img.shields.io/github/repo-size/hugh-bowie/waether-dashboard" />
 <h6 align="center">Open Weather API - to see the weather outlook for multiple cities</h6>
 </p>
+<p align="center">
+    <img src="https://img.shields.io/badge/Javascript-yellow" />
+    <img src="https://img.shields.io/badge/jQuery-blue"  />
+    <img src="https://img.shields.io/badge/HTML5-orange" />
+    <img src="https://img.shields.io/badge/Bootstrap-purple" >
+    <img src="https://img.shields.io/badge/Moment.js-green" />
+    <img src="https://img.shields.io/badge/OpenWeather%20API-orange" />
+</p>
 ## Layout
 
 <img src="https://github.com/hugh-bowie/weather-dashboard/blob/main/weather-dashboard.PNG">
