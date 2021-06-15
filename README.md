@@ -1,4 +1,5 @@
-# weather-dashboard
+<h1 align="center">Weather Dashboard</h1>
+
 Open Weather API - to see the weather outlook for multiple cities
 
 ## Layout
