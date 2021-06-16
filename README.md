@@ -8,7 +8,7 @@
     <img src="https://img.shields.io/badge/Moment.js-green" />
     <img src="https://img.shields.io/badge/OpenWeather%20API-orange" />
 </p>
-<h3> Live application found here: <a href="https://hugh-bowie.github.io/weather-dashboard"</a></h3>
+<h3> Live application found here: <a href="https://hugh-bowie.github.io/weather-dashboard">https://hugh-bowie.github.io/weather-dashboard</a></h3>
 <h2>Layout</h2>
 
 <img src="https://github.com/hugh-bowie/weather-dashboard/blob/main/weather-dashboard.PNG">
