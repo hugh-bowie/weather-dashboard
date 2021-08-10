@@ -1,5 +1,6 @@
-<h1 align="center">Weather Dashboard</h1>
-<h6 align="center">Open Weather API - to see the weather outlook for multiple cities</h6>
+<h1 align="center">Weather Dashboard🚀</h1>
+
+<h6 align="center"></h6>
 <p align="center">
     <img src="https://img.shields.io/badge/jQuery-blue"  />
     <img src="https://img.shields.io/badge/Javascript-yellow" />
@@ -11,9 +12,23 @@
 <h3> Live application found here: <a href="https://hugh-bowie.github.io/weather-dashboard">https://hugh-bowie.github.io/weather-dashboard</a></h3>
 <h2>Layout</h2>
 
-<img src="https://github.com/hugh-bowie/weather-dashboard/blob/main/weather-dashboard.PNG">
+## 📓 Description
 
-## Acceptance Criteria
+Open Weather API - to see the weather outlook for multiple cities
+
+## 🎬 Screenshot
+
+![weather-gif](./weather-dashboard.gif)
+
+## 🃏 User Story
+
+```
+AS A traveler
+I WANT to see the weather outlook for multiple cities
+SO THAT I can plan a trip accordingly
+```
+
+## ✔️ Accpetance Criteria
 
 ```
   GIVEN a weather dashboard with form inputs
@@ -28,10 +43,27 @@
   WHEN I click on a city in the search history
   THEN I am again presented with current and future conditions for that city
 ```
-## User Story
 
-```
-AS A traveler
-I WANT to see the weather outlook for multiple cities
-SO THAT I can plan a trip accordingly
-```
+## 📋 Table of Contents
+
+- [Description](#description)
+- [Screenshot](#Screenshot)
+- [User Story](#user-story)
+- [Acceptance Criteria](#acceptance-criteria)
+- [Table of Contents](#table-of-contents)
+- [Installation](#installation)
+- [Contributing](#contributing)
+- [Questions](#questions)
+
+## 🛠 Installation
+
+`Open index.html with Live Server`
+
+## 🍻 Contributing
+
+:octocat: [Hugh Bowie](https://github.com/hugh-bowie)
+
+## ⁉️ Questions
+
+Contact me with any questions:
+[hughbowie@me.com](mailto:hughbowie@me.com)<br />[GitHub](https://github.com/hugh-bowie)<br />
