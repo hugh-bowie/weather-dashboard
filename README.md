@@ -1,6 +1,5 @@
 <h1 align="center">Weather Dashboard🚀</h1>
 
-<h6 align="center"></h6>
 <p align="center">
     <img src="https://img.shields.io/badge/jQuery-blue"  />
     <img src="https://img.shields.io/badge/Javascript-yellow" />
@@ -9,16 +8,16 @@
     <img src="https://img.shields.io/badge/Moment.js-green" />
     <img src="https://img.shields.io/badge/OpenWeather%20API-orange" />
 </p>
-<h3> Live application found here: <a href="https://hugh-bowie.github.io/weather-dashboard">https://hugh-bowie.github.io/weather-dashboard</a></h3>
-<h2>Layout</h2>
 
 ## 📓 Description
 
 Open Weather API - to see the weather outlook for multiple cities
 
+#### [Deployed application here](https://hugh-bowie.github.io/weather-dashboard)
+
 ## 🎬 Screenshot
 
-![weather-gif](./weather-dashboard.gif)
+![weather-gif](./assets/images/weather-dashboard.gif)
 
 ## 🃏 User Story
 
